@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import styles from './page.module.css'
 import { Autour_One } from 'next/font/google'
+import LoginButton from './components/LoginButton'
 
 const autour_one = Autour_One({ subsets: ['latin'], weight: '400' })
 
@@ -10,6 +10,7 @@ export default function Home() {
       <h1 className={styles.title}>
         <a className={autour_one.className}>FullerTube</a>
       </h1>
+      <LoginButton />
     </main>
   )
 }
