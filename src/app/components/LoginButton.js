@@ -7,7 +7,7 @@ const autour_one = Autour_One({ subsets: ['latin'], weight: '400' })
 
 const LoginButton = () => {
   return (
-    <Link href="/LoginPage">
+    <Link href="/Login">
         <button className={[styles.button, autour_one.className].join(' ')}>Login</button>
     </Link>
   );
