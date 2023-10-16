@@ -58,5 +58,5 @@ export const Auth = () => {
                         onClick={handleSignup}>Sign Up</button>
                 </div>
             </div>
-        )    };
-
+        )    
+    };
