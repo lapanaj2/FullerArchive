@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <main className={[styles.main, styles.gradientBackground].join(' ')}>
       <h1 className={styles.title}>
-        <a className={autour_one.className}>FullerTube</a>
+        <a className={autour_one.className}>FullerArchive</a>
       </h1>
       <LoginButton />
     </main>
