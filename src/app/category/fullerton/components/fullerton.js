@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react';
-import styles from './sports.module.css';
+import styles from './fullerton.module.css';
 
-const Sports = () => {
+const Fullerton = () => {
     return (
   <div className={styles.whiteBackground}>
     <header className={styles.header}>
@@ -114,4 +114,4 @@ const Sports = () => {
     );
 };
 
-export default Sports;
+export default Fullerton;

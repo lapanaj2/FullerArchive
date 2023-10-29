@@ -9,11 +9,10 @@ const HomePage = () => {
     <header className={styles.header}>
         <a href="/home">
         <img
-            src="/FullerTube.png"
+            src="/Fullerarchive.png"
             width={150}
             height={60}
-            alt="FullerTube Logo"
-            className={styles['fullertube-logo']}
+            alt="FullerArchive Logo"
         />
         </a>
         <form className={styles['search-bar']}>
@@ -65,19 +64,46 @@ const HomePage = () => {
     </header>
     <div className={styles.categories}>
         <section className={styles['category-section']}>
-        <button className={styles.category}>Gaming</button>
+        <button className={styles.category}>
+            <a href="/category/fullerton">
+            Fullerton
+            </a>
+        </button>
+        <button className={styles.category}>
+            <a href="/category/nature">
+            Nature
+            </a>
+        </button>
+        <button className={styles.category}>
+            <a href="/category/cars">
+            Cars
+            </a>
+        </button>
+        <button className={styles.category}>
+            <a href="/category/animals">
+            Animals
+            </a>
+        </button>
         <button className={styles.category}>
             <a href="/category/sports">
             Sports
             </a>
         </button>
-        <button className={styles.category}>live</button>
-        <button className={styles.category}>Podcasts</button>
-        <button className={styles.category}>Cars</button>
-        <button className={styles.category}>Watched</button>
-        <button className={styles.category}>Computer Programming</button>
-        <button className={styles.category}>New to you</button>
-        <button className={styles.category}>Recently Uploaded</button>
+        <button className={styles.category}>
+            <a href="/category/figurines">
+            Figurines
+            </a>
+        </button>
+        <button className={styles.category}>
+            <a href="/category/luxury">
+            Luxury
+            </a>
+        </button>
+        <button className={styles.category}>
+            <a href="/category/computer-programming">
+            Computer Programming
+            </a>
+        </button>
         <button id="dark-mode-toggle">Toggle Dark Mode</button>
         </section>
     </div>

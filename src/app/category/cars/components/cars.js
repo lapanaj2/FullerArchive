@@ -1,9 +1,9 @@
 'use client'
 
 import React from 'react';
-import styles from './sports.module.css';
+import styles from './cars.module.css';
 
-const Sports = () => {
+const Cars = () => {
     return (
   <div className={styles.whiteBackground}>
     <header className={styles.header}>
@@ -114,4 +114,4 @@ const Sports = () => {
     );
 };
 
-export default Sports;
+export default Cars;

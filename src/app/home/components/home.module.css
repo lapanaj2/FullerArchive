@@ -180,10 +180,6 @@
     padding: 1rem;
 }
 
-.fullertube-logo {
-    height: 20px;
-}
-
 .search-bar {
     display: flex;
     flex-grow: 1;
