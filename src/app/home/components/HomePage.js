@@ -2,49 +2,12 @@
 
 import React from 'react';
 import styles from './home.module.css';
-import { useEffect } from 'react';
 
 const HomePage = () => {
-    useEffect(() => {
-        // Check if we are running on the client (browser)
-        if (typeof window !== 'undefined') {
-          // Get the dark mode toggle button
-          const darkModeToggle = document.getElementById('dark-mode-toggle');
-    
-          // Add a click event listener to the button
-          darkModeToggle.addEventListener('click', () => {
-            // Toggle the 'dark-mode' class on the body
-            document.body.classList.toggle('dark-mode');
-            // You can also save the user's preference in local storage
-            const isDarkMode = document.body.classList.contains('dark-mode');
-            localStorage.setItem('darkMode', isDarkMode);
-          });
-    
-          // Check for the user's previous preference in local storage
-          const savedDarkMode = localStorage.getItem('darkMode');
-    
-          // Apply dark mode if the preference is saved
-          if (savedDarkMode === 'true') {
-            document.body.classList.add('dark-mode');
-          }
-        }
-      }, []);
-    
     return (
-        <>
-  <meta charSet="UTF-8" />
-  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="stylesheets/style.css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-  <link
-    href="https://fonts.googleapiscom/css2?family=Roboto.wght@400;700&display=swap"
-    rel="stylesheet"
-  />
-  <title>FullerTube</title>
   <div className={styles.whiteBackground}>
     <header className={styles.header}>
-        <a href="index.html">
+        <a href="/home">
         <img
             src="/FullerTube.png"
             width={150}
@@ -65,7 +28,7 @@ const HomePage = () => {
         </button>
         </form>
         <div className={styles['menu-icons']}>
-        <a href="#">
+        <a href="/upload">
             <img
             src="/upload.png"
             width={30}
@@ -103,7 +66,11 @@ const HomePage = () => {
     <div className={styles.categories}>
         <section className={styles['category-section']}>
         <button className={styles.category}>Gaming</button>
-        <button className={styles.category}>Sports</button>
+        <button className={styles.category}>
+            <a href="/category/sports">
+            Sports
+            </a>
+        </button>
         <button className={styles.category}>live</button>
         <button className={styles.category}>Podcasts</button>
         <button className={styles.category}>Cars</button>
@@ -630,8 +597,6 @@ const HomePage = () => {
         </section>
     </div>
   </div>
-</>
-
     );
 };
 
