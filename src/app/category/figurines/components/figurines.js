@@ -9,7 +9,7 @@ const Figurines = () => {
     <header className={styles.header}>
         <a href="/home">
         <img
-            src="/Fullerarchive.png"
+            src="/FullerArchive.png"
             width={150}
             height={60}
             alt="FullerArchive Logo"
