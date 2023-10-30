@@ -1,7 +1,5 @@
-'use client'
-
 import React from 'react';
-import styles from './figurines.module.css';
+import styles from '../../components/category.module.css';
 
 const Figurines = () => {
     return (

@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import styles from './nature.module.css';
+import styles from '../../components/category.module.css';
 
 const Nature = () => {
     return (
