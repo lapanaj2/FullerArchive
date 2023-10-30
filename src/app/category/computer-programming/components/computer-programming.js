@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react';
-import styles from './computer-programming.module.css';
+import styles from '../../components/category.module.css';
 
 const ComputerProgramming = () => {
     return (
