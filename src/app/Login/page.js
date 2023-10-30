@@ -11,6 +11,12 @@ export default function LoginPage() {
     return (
         <main className={[styles.main, styles.gradientBackground].join(' ')}>
             <div className={styles['login-box']}>
+            <img
+                src="/FullerArchive.png"
+                width={150}
+                height={60}
+                alt="FullerArchive Logo"
+            />
                 <Auth />
             </div>
         </main>

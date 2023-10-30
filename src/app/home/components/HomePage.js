@@ -49,202 +49,163 @@ const HomePage = () => {
                 </a>
             </button>
             <button className={styles.category}>
-                <a href="/category/luxury">
-                Luxury
-                </a>
-            </button>
-            <button className={styles.category}>
                 <a href="/category/computer-programming">
                 Computer Programming
                 </a>
             </button>
-            {/*<button id="dark-mode-toggle">Toggle Dark Mode</button>*/}
         </section>
     </div>
     <div className={styles.pictures}>
         <section className={styles['picture-section']}>
+            <h2 className={styles['picture-section-title']}>
+                Trending Pictures
+            </h2>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/992_GT3RS.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/992_GT3RS.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/992_GT3RS.png" className={styles['picture-title']}>
+                        992 GT3RS
                         </a>
                     </div>  
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/Fraser_Island.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/Fraser_Island.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/Fraser_Island.jpg" className={styles['picture-title']}>
+                        Fraser Island
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/basketball.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/basketball.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/basketball.jpg" className={styles['picture-title']}>
+                        Basketball
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/lemur.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/lemur.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/lemur.jpg" className={styles['picture-title']}>
+                        Lemur
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/k1931r1dpqm2.png" className={styles.thumbnail}>
                     <img
-                        className={styles['picture-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        className={styles['thumbnail-image']}
+                        src="/k1931r1dpqm2.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/k1931r1dpqm2.png" className={styles['picture-title']}>
+                        Luffy
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/IMG_4749.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/IMG_4749.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
-                        </a>
-                    </div>
-                </div>
-            </article>
-        </section>
-        <section className={styles['picture-section']}>
-            <h2 className={styles['picture-section-title']}>
-                Trending Pictures
-                <button className={styles['picture-section-title-close']}>×</button>
-            </h2>
-            <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
-                    <img
-                        className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
-                    />
-                </a>
-                <div className={styles['picture-bottom-section']}>
-                    <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/IMG_4749.jpg" className={styles['picture-title']}>
+                        Laguna Lake Park
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/f2005.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/f2005.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/f2005.png" className={styles['picture-title']}>
+                        F2005
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/Puerto_Vallarta.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/Puerto_Vallarta.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/Puerto_Vallarta.jpg" className={styles['picture-title']}>
+                        Puerto Vallarta
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/eagle.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/eagle.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/eagle.jpg" className={styles['picture-title']}>
+                        Eagle
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/emerald-lake.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/emerald-lake.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
-                        </a>
-                    </div>
-                </div>
-            </article>
-            <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
-                    <img
-                        className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
-                    />
-                </a>
-                <div className={styles['picture-bottom-section']}>
-                    <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/emerald-lake.jpg" className={styles['picture-title']}>
+                        Emerald Lake
                         </a>
                     </div>
                 </div>
@@ -252,91 +213,91 @@ const HomePage = () => {
         </section>
         <section className={styles['picture-section']}>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/squirrel.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/squirrel.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/squirrel.jpg" className={styles['picture-title']}>
+                        Squirrel
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/65725-1.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/65725-1.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/65725-1.png" className={styles['picture-title']}>
+                        Spot
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/amg-gt.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/amg-gt.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/amg-gt.png" className={styles['picture-title']}>
+                        AMG GT
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/categories.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/categories.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/categories.png" className={styles['picture-title']}>
+                        Categories
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/volleyball.jpg" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/volleyball.jpg"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/volleyball.jpg" className={styles['picture-title']}>
+                        Volleyball
                         </a>
                     </div>
                 </div>
             </article>
             <article className={styles['picture-container']}>
-                <a href="#" className={styles.thumbnail}>
+                <a href="/one-piece-portgas-d-ace.png" className={styles.thumbnail}>
                     <img
                         className={styles['thumbnail-image']}
-                        src="http://unsplash.it/250/150?gravity=center"
+                        src="/one-piece-portgas-d-ace.png"
                     />
                 </a>
                 <div className={styles['picture-bottom-section']}>
                     <div className={styles['picture-details']}>
-                        <a href="#" className={styles['picture-title']}>
-                        Picture Title
+                        <a href="/one-piece-portgas-d-ace.png" className={styles['picture-title']}>
+                        Ace
                         </a>
                     </div>
                 </div>
