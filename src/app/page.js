@@ -8,7 +8,13 @@ export default function Home() {
   return (
     <main className={[styles.main, styles.gradientBackground].join(' ')}>
       <h1 className={styles.title}>
-        <a className={autour_one.className}>FullerArchive</a>
+        <img
+          src="/FullerArchive.png"
+          width={600}
+          height={240}
+          alt="FullerArchive Logo"
+        />
+        {/*<a className={autour_one.className}>FullerArchive</a>*/}
       </h1>
       <LoginButton />
     </main>

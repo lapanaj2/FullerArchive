@@ -19,91 +19,91 @@ const ComputerProgramming = () => {
     <div className={styles.pictures}>
         <section className={styles['picture-section']}>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/first-page.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/first-page.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/first-page.png" className={styles['picture-title']}>
+                First Page
                 </a>
             </div>
             </div>
         </article>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/auth-component.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/auth-component.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/auth-component.png" className={styles['picture-title']}>
+                Auth Component
                 </a>
             </div>
             </div>
         </article>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/file-structure.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/file-structure.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/file-structure.png" className={styles['picture-title']}>
+                File Structure
                 </a>
             </div>
             </div>
         </article>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/categories.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/categories.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/categories.png" className={styles['picture-title']}>
+                Categories
                 </a>
             </div>
             </div>
         </article>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/car-category.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/car-category.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/car-category.png" className={styles['picture-title']}>
+                Car Category
                 </a>
             </div>
             </div>
         </article>
         <article className={styles['picture-container']}>
-            <a href="/basketball-1.png" className={styles.thumbnail}>
+            <a href="/favicon.png" className={styles.thumbnail}>
             <img
                 className={styles['thumbnail-image']}
-                src="/basketball-1.png"
+                src="/favicon.png"
             />
             </a>
             <div className={styles['picture-bottom-section']}>
             <div className={styles['picture-details']}>
-                <a href="#" className={styles['picture-title']}>
-                Basketball
+                <a href="/favicon.png" className={styles['picture-title']}>
+                Favicon
                 </a>
             </div>
             </div>
