@@ -14,7 +14,6 @@ export default function Home() {
           height={240}
           alt="FullerArchive Logo"
         />
-        {/*<a className={autour_one.className}>FullerArchive</a>*/}
       </h1>
       <LoginButton />
     </main>
